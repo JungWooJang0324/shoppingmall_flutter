@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "shoppingmall-flutter-jjw",
+    "staging": "shoppingmall-flutter-jjw"
+  },
+  "targets": {},
+  "etags": {}
+}
