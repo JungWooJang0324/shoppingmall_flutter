@@ -10,7 +10,9 @@ class LoginScreen extends StatelessWidget {
     return ChangeNotifierProvider(
         create: (_) => LoginModel(),
         child: Scaffold(
-          appBar: AppBar(),
+          appBar: AppBar(
+            title: Text('Login Page'),
+          ),
           body: Column(
             children: [
               EmailInput(),

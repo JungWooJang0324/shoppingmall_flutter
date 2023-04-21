@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "529884891306",
+    "firebase_url": "https://shoppingmall-flutter-jjw-default-rtdb.firebaseio.com",
     "project_id": "shoppingmall-flutter-jjw",
     "storage_bucket": "shoppingmall-flutter-jjw.appspot.com"
   },
@@ -29,6 +30,49 @@
             {
               "client_id": "529884891306-h14o6ds29ub8cg5in26dj69uiu8tv7ui.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "529884891306-e53d28b6qmn163uqni3lgoip00ipqf94.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shoppingmallFlutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529884891306:android:fca82f9fbaddb0975a68d3",
+        "android_client_info": {
+          "package_name": "jin.mychew.shopingmall_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529884891306-h14o6ds29ub8cg5in26dj69uiu8tv7ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBKT0xr3sjaJDyiTOF1CuzpuHcBzn86O8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529884891306-h14o6ds29ub8cg5in26dj69uiu8tv7ui.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529884891306-e53d28b6qmn163uqni3lgoip00ipqf94.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shoppingmallFlutter"
+              }
             }
           ]
         }

@@ -8,9 +8,8 @@ class Item {
   late String brand;
   late String description;
   late String imgUrl;
-  late String registerDate;
+  late Timestamp registerDate;
   late int price;
-
 
   Item({
     required this.id,
@@ -22,7 +21,9 @@ class Item {
     required this.registerDate,
   });
 
-  Item.fromSnapshot(DocumentSnapshot snapshot){
+
+
+  Item.fromSnapshot(DocumentSnapshot snapshot) {
     Map<String, dynamic> data = snapshot.data() as Map<String, dynamic>;
     id = snapshot.id;
     title = data['title'];
@@ -32,7 +33,5 @@ class Item {
     price = data['price'];
     registerDate = data['registerDate'];
 
-
   }
-
 }

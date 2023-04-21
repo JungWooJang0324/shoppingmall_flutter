@@ -33,7 +33,9 @@ class _IndexScreenState extends State<IndexScreen> {
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text('shoppingmall JW'),
+      ),
       bottomNavigationBar: BottomNavigationBar(
         type : BottomNavigationBarType.fixed,
         iconSize: 44,
@@ -45,6 +47,12 @@ class _IndexScreenState extends State<IndexScreen> {
           setState(() {
             _currentIndex = index;
           });
+          if (index == 1) {
+            setState(() {
+              _currentIndex = 0;
+            });
+            Navigator.pushNamed(context, '/search');
+          }
         },
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'home'),
